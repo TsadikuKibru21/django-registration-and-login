@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>User Profile</title>
+
+</head>
+<body>
+    {% if sel_item %}  
+   <form action="" method="POST"></form>
+    <div><label for="">Email</label> </div>
+    <div><input type="email" name="email" value="{{sel_item.email}}"></div>
+    <div><label for="">password</label> </div>
+    <div><input type="password" name="password" value="{{sel_item.password}}"></div>
+   <div><input type="submit" name="submit" value="Update"></div>
+   {% endif %} 
+</body>
+</html>
